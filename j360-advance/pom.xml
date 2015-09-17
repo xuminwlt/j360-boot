@@ -2,16 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>j360-parent</artifactId>
+        <groupId>me.j360.boot</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>me.j360.boot</groupId>
-    <artifactId>j360-parent</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>j360-standard</module>
-        <module>j360-advance</module>
-    </modules>
-    <packaging>pom</packaging>
+    <artifactId>j360-advance</artifactId>
 
 
 </project>
