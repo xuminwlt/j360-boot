@@ -63,3 +63,12 @@ j360系列集成spring-boot
     - 只需要将pom.xml的package改成war即可
     
 ### j360-standard ###
+- 标准maven依赖，继承自己定义的parent并封装，j360-standard属于典型的标准的工程，尽量不受制于spring boot在工程搭建的时候的限制，比如自定义的parent，集成自己的modules，可打包成war包，并且在开发场景中嵌入spring loaded实现热加载提高开发效率等。
+- j360-standard实现常规项目中实体类、方法、消息、缓存、会话和页面，该工程使用spring另一个框架spring-session实现集群的会话同步功能，无需再去配置nginx或者apache+tomcat的会话同步，可谓功劳不小，配合docker容器的发布，在比如做活动等高并发请求时可以增加若干容器集群达到增加服务器的承载力。
+- **包含：**
+    - jpa
+    - activemq（采用内置环境）
+    - redis（需要安装redis服务器）
+    - session（springsession）
+    - jsp
+    - logback
