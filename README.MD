@@ -56,3 +56,10 @@ j360系列集成spring-boot
 - **演示**
     - 执行spring-boot:run（也可以直接在IDE中执行Application.java main方法）
     - 输入localhost:8080/index
+    
+
+### j360-simplewar ###
+- **打包成war格式的设置**
+    - 只需要将pom.xml的package改成war即可
+    
+### j360-standard ###
