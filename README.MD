@@ -39,7 +39,9 @@ j360系列集成spring-boot
 - j360-simplewar：直接继承spring-boot并修改生成为war格式
 - j360-standard：标准maven依赖，继承自己定义的parent并封装
 - j360-advance：标准maven依赖，继承并依赖自定义的module
-
+- j360-production:Spring Boot包含很多其他的特性，它们可以帮你监控和管理发布到生产环境的应用。你可以选择使用HTTP端点，JMX或远
+                  程shell（SSH或Telnet）来管理和监控应用。审计（Auditing），健康（health）和数据采集（metrics gathering）会自动应
+                  用到你的应用。
 ### j360-simple ###
 
 - **开发顺序**
@@ -72,3 +74,11 @@ j360系列集成spring-boot
     - session（springsession）
     - jsp
     - logback
+    
+### j360-advance ###
+
+
+### j360-produciton ###
+- spring-boot-actuator模块提供了Spring Boot所有的production-ready特性。启用该特性的最简单方式就是添加对spring-bootstarter-
+  actuator ‘Starter POM’的依赖。
+  
