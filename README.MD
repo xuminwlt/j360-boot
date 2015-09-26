@@ -76,8 +76,21 @@ j360系列集成spring-boot
     - logback
     
 ### j360-advance ###
-
-
+- 标准maven依赖，继承自己定义的parent并封装，进一步升级标准配置，应对开发过程中的各种复杂要求，比如多场景控制，老的项目用到的hibernate datasource，shiro，mongodb等。
+  - **包含：**
+  - 自定义的hibernate配置
+  - activemq（采用内置环境）
+  - redis（需要安装redis服务器）
+  - session（springsession）
+  - jsp
+  - logback
+  - mongodb
+  - shiro
+  - webservice-cxf
+  - spring loaded热部署
+  - 分布式事务 XA
+  - docker支持（见 j360-docker https://github.com/xuminwlt/j360-docker）
+  
 ### j360-produciton ###
 - spring-boot-actuator模块提供了Spring Boot所有的production-ready特性。启用该特性的最简单方式就是添加对spring-bootstarter-
   actuator ‘Starter POM’的依赖。
