@@ -54,6 +54,9 @@ j360系列集成spring-boot
     - 编写配置Configuration.java（独立便于定制）
     - （可选）如果是个web工程 增加Index.java（用于执行后测试）
 - **测试**
+    - 单元测试
+        -   普通的restTemplate测试/hello的输出结果
+        -   通过gzip编码压缩的restTemplate测试/hello的结果
     
 - **演示**
     - 执行spring-boot:run（也可以直接在IDE中执行Application.java main方法）
