@@ -78,6 +78,15 @@ j360系列集成spring-boot
     - jsp
     - logback
     
+    - **测试**
+        - 单元测试
+            -   普通的restTemplate测试/hello的输出结果
+            -   通过gzip编码压缩的restTemplate测试/hello的结果
+        
+    - **演示**
+        - 执行spring-boot:run（也可以直接在IDE中执行Application.java main方法）
+        - 输入localhost:8080/index
+        
 ### j360-advance ###
 - 标准maven依赖，继承自己定义的parent并封装，进一步升级标准配置，应对开发过程中的各种复杂要求，比如多场景控制，老的项目用到的hibernate datasource，shiro，mongodb等。
   - **包含：**
