@@ -77,7 +77,7 @@ j360系列集成spring-boot
     - session（springsession）
     - jsp
     - logback
-    - rabbitmq(修安排rabbitmq服务器)
+    - rabbitmq(需要rabbitmq服务器)
     
     - **测试**
         - 单元测试
