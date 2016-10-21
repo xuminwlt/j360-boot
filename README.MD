@@ -111,3 +111,6 @@ j360系列集成spring-boot
 
 ### j360-enablediy ###
 - diy自己的@Enable的使用方式,定制自己的自动装配策略,感兴趣的可以根据自己的框架定义自己的enable注解,一键导入spring bean配置
+ - enable注解 import相关的Configuretion类及需要生成的Spring bean
+ - Configuration类,创建相关的Spring Bean,同时可以读取yml的值
+ - Application启动类 引用enable注解
