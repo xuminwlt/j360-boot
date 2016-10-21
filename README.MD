@@ -107,4 +107,7 @@ j360系列集成spring-boot
 ### j360-produciton ###
 - spring-boot-actuator模块提供了Spring Boot所有的production-ready特性。启用该特性的最简单方式就是添加对spring-bootstarter-
   actuator ‘Starter POM’的依赖。
-  
+
+
+### j360-enablediy ###
+- diy自己的@Enable的使用方式,定制自己的自动装配策略,感兴趣的可以根据自己的框架定义自己的enable注解,一键导入spring bean配置
