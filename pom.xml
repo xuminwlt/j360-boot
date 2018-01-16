@@ -12,6 +12,7 @@
         <module>j360-advance</module>
         <module>j360-production</module>
         <module>j360-enablediy</module>
+        <module>j360-session</module>
     </modules>
     <packaging>pom</packaging>
 
